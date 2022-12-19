@@ -1,0 +1,31 @@
+{
+  "name": "template-knex-read-only",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "build": "tsc",
+    "build:watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngmaibulat/template-knex-read-only.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ngmaibulat/template-knex-read-only/issues"
+  },
+  "homepage": "https://github.com/ngmaibulat/template-knex-read-only#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "knex": "^2.3.0",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.17"
+  }
+}
