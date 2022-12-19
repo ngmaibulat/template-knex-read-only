@@ -22,3 +22,12 @@ export const db = knexpkg.knex({
         database: dbinfo.name,
     },
 });
+
+export async function dbping() {
+    try {
+        await db.raw("SELECT 1");
+        return [true, null];
+    } catch (e) {
+        return [false, e];
+    }
+}
